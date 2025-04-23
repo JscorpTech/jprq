@@ -22,7 +22,7 @@ type Config struct {
 func (c *Config) Load() error {
 	c.MaxTunnelsPerUser = 4
 	c.MaxConsPerTunnel = 24
-	c.PublicServerPort = 80
+	c.PublicServerPort = 81
 	c.EventServerPort = 4321
 	c.PublicServerTLSPort = 443
 	c.DomainName = os.Getenv("JPRQ_DOMAIN")
