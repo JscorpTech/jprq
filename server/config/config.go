@@ -24,7 +24,7 @@ func (c *Config) Load() error {
 	c.MaxConsPerTunnel = 24
 	c.PublicServerPort = 81
 	c.EventServerPort = 4321
-	c.PublicServerTLSPort = 443
+	c.PublicServerTLSPort = 444
 	c.DomainName = os.Getenv("JPRQ_DOMAIN")
 	c.TLSKeyFile = os.Getenv("JPRQ_TLS_KEY")
 	c.TLSCertFile = os.Getenv("JPRQ_TLS_CERT")
