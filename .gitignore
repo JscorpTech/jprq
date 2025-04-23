@@ -2,6 +2,7 @@
 .DS_Store
 vendor/
 package.json
+.env
 
 # binaries
 bin/

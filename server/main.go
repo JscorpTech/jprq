@@ -7,9 +7,14 @@ import (
 
 	"github.com/azimjohn/jprq/server/config"
 	"github.com/azimjohn/jprq/server/github"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+
+	if err := godotenv.Load(); err != nil {
+		log.Fatal(err)
+	}
 	var (
 		conf config.Config
 		jprq Jprq
